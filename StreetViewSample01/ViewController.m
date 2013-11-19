@@ -23,8 +23,8 @@
   MMMapView *mapView = [[MMMapView alloc] initWithFrame:[[self view] bounds] key:@"06a885fd92433087ae783a825da576f2"];
   mapView.delegate = self;
   
-  [mapView setZoom:17];
-  mapView.centerCoordinate = CLLocationCoordinate2DMake(35.628222, 139.738694);
+  [mapView setZoom:16.415038];
+  mapView.centerCoordinate = CLLocationCoordinate2DMake(35.6895, 139.691694);
   
   [self.view addSubview:mapView];
 }
