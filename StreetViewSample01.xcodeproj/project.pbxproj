@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6FAEF6183B909F009B714F /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6FAEF5183B909F009B714F /* GoogleMaps.framework */; };
 		EB68ABD4183B282E0059548E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68ABD3183B282E0059548E /* Foundation.framework */; };
 		EB68ABD6183B282E0059548E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68ABD5183B282E0059548E /* CoreGraphics.framework */; };
 		EB68ABD8183B282E0059548E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68ABD7183B282E0059548E /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		EB68ABF8183B282E0059548E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68ABD7183B282E0059548E /* UIKit.framework */; };
 		EB68AC00183B282E0059548E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB68ABFE183B282E0059548E /* InfoPlist.strings */; };
 		EB68AC02183B282E0059548E /* StreetViewSample01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB68AC01183B282E0059548E /* StreetViewSample01Tests.m */; };
-		EB68AC0C183B33BF0059548E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68AC0B183B33BF0059548E /* GoogleMaps.framework */; };
 		EB68AC0F183B34040059548E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB68AC0E183B34040059548E /* GoogleMaps.bundle */; };
 		EB68AC11183B34350059548E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68AC10183B34350059548E /* AVFoundation.framework */; };
 		EB68AC13183B36100059548E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68AC12183B36100059548E /* CoreData.framework */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE6FAEF5183B909F009B714F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		EB68ABD0183B282E0059548E /* StreetViewSample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetViewSample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB68ABD3183B282E0059548E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB68ABD5183B282E0059548E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,7 +74,6 @@
 		EB68ABFD183B282E0059548E /* StreetViewSample01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreetViewSample01Tests-Info.plist"; sourceTree = "<group>"; };
 		EB68ABFF183B282E0059548E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB68AC01183B282E0059548E /* StreetViewSample01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreetViewSample01Tests.m; sourceTree = "<group>"; };
-		EB68AC0B183B33BF0059548E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		EB68AC0E183B34040059548E /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		EB68AC10183B34350059548E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EB68AC12183B36100059548E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -105,6 +105,7 @@
 				EB68AC23183B364A0059548E /* OpenGLES.framework in Frameworks */,
 				EB68AC21183B36430059548E /* libz.dylib in Frameworks */,
 				EB68AC1F183B363C0059548E /* libstdc++.dylib in Frameworks */,
+				AE6FAEF6183B909F009B714F /* GoogleMaps.framework in Frameworks */,
 				EB68AC1D183B36340059548E /* libicucore.dylib in Frameworks */,
 				EB68AC1B183B36290059548E /* ImageIO.framework in Frameworks */,
 				EB68AC19183B36230059548E /* GLKit.framework in Frameworks */,
@@ -115,7 +116,6 @@
 				EB68ABD6183B282E0059548E /* CoreGraphics.framework in Frameworks */,
 				EB68AC4A183B5F130059548E /* MapionMaps.framework in Frameworks */,
 				EB68ABD8183B282E0059548E /* UIKit.framework in Frameworks */,
-				EB68AC0C183B33BF0059548E /* GoogleMaps.framework in Frameworks */,
 				EB68ABD4183B282E0059548E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +157,7 @@
 		EB68ABD2183B282E0059548E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE6FAEF5183B909F009B714F /* GoogleMaps.framework */,
 				EB68AC4D183B5FFE0059548E /* libsqlite3.dylib */,
 				EB68AC49183B5F130059548E /* MapionMaps.framework */,
 				EB68AC26183B36570059548E /* SystemConfiguration.framework */,
@@ -171,7 +172,6 @@
 				EB68AC14183B36170059548E /* CoreLocation.framework */,
 				EB68AC12183B36100059548E /* CoreData.framework */,
 				EB68AC10183B34350059548E /* AVFoundation.framework */,
-				EB68AC0B183B33BF0059548E /* GoogleMaps.framework */,
 				EB68ABD3183B282E0059548E /* Foundation.framework */,
 				EB68ABD5183B282E0059548E /* CoreGraphics.framework */,
 				EB68ABD7183B282E0059548E /* UIKit.framework */,
@@ -478,6 +478,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/honjyo/workspace/github/StreetViewSample01,
+					/Users/honjo2/workspace/github/StreetViewSample01,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StreetViewSample01/StreetViewSample01-Prefix.pch";
@@ -497,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/honjyo/workspace/github/StreetViewSample01,
+					/Users/honjo2/workspace/github/StreetViewSample01,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StreetViewSample01/StreetViewSample01-Prefix.pch";
@@ -568,6 +570,7 @@
 				EB68AC07183B282E0059548E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB68AC08183B282E0059548E /* Build configuration list for PBXNativeTarget "StreetViewSample01Tests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +579,7 @@
 				EB68AC0A183B282E0059548E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
