@@ -2,17 +2,21 @@
 //  AppDelegate.m
 //  StreetViewSample01
 //
-//  Created by honjyo on 2013/11/19.
-//  Copyright (c) 2013年 honjyo. All rights reserved.
+//  Created by honjo2 on 2013/11/19.
+//  Copyright (c) 2013 honjo2. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+  
+    [GMSServices provideAPIKey:@"AIzaSyATCbJ0oeVHXvuGHs6ZOSQw6cM4NcsxDTA"];
+  
     return YES;
 }
 							

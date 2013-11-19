@@ -2,12 +2,13 @@
 //  ViewController.h
 //  StreetViewSample01
 //
-//  Created by honjyo on 2013/11/19.
-//  Copyright (c) 2013年 honjyo. All rights reserved.
+//  Created by honjo2 on 2013/11/19.
+//  Copyright (c) 2013 honjo2. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <MapionMaps/MapionMaps.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MMMapViewDelegate>
 
 @end
