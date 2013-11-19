@@ -39,6 +39,7 @@
 		EB68AC48183B5AA70059548E /* StreetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB68AC47183B5AA70059548E /* StreetViewController.m */; };
 		EB68AC4A183B5F130059548E /* MapionMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68AC49183B5F130059548E /* MapionMaps.framework */; };
 		EB68AC4E183B5FFE0059548E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB68AC4D183B5FFE0059548E /* libsqlite3.dylib */; };
+		EB68AC50183B67CD0059548E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB68AC4F183B67CD0059548E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		EB68AC47183B5AA70059548E /* StreetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetViewController.m; sourceTree = "<group>"; };
 		EB68AC49183B5F130059548E /* MapionMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapionMaps.framework; sourceTree = "<group>"; };
 		EB68AC4D183B5FFE0059548E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EB68AC4F183B67CD0059548E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		EB68ABC7183B282E0059548E = {
 			isa = PBXGroup;
 			children = (
+				EB68AC4F183B67CD0059548E /* README.md */,
 				EB68AC0D183B34040059548E /* Resources */,
 				EB68ABD9183B282E0059548E /* StreetViewSample01 */,
 				EB68ABFB183B282E0059548E /* StreetViewSample01Tests */,
@@ -307,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB68AC50183B67CD0059548E /* README.md in Resources */,
 				EB68ABEA183B282E0059548E /* Main_iPad.storyboard in Resources */,
 				EB68ABEF183B282E0059548E /* Images.xcassets in Resources */,
 				EB68ABE7183B282E0059548E /* Main_iPhone.storyboard in Resources */,
